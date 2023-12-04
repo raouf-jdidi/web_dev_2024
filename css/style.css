@@ -1,3 +1,87 @@
-h2 {
-  color: blue;
+body {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+}
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+.container {
+  width: 350px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 13px;
+}
+.text {
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  border-radius: 13px;
+}
+.text h1 {
+  text-align: center;
+}
+.text p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+.parent {
+  display: flex;
+  width: 80%;
+  background-color: white;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  margin-top: 20px;
+}
+.parent .parent0 {
+  display: flex;
+  background-color: white;
+  width: 53%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.parent .parent1 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+.parent .parent1 span {
+  padding: 4px;
+}
+.parent .parent1 .span1 {
+  font-weight: bold;
+}
+.parent .parent1 .span2 {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+}
+.parent .parent0 i {
+  color: rgb(130, 128, 128);
+  background-color: hsl(224, 11%, 74%);
+  padding: 8px;
+  border-radius: 20px;
+}
+.text button {
+  background-color: white;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px 90px;
+  color: hsl(224, 23%, 55%);
+  border-radius: 13px;
+  cursor: pointer;
+  border: none;
+}
+.text .btn1 {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+}
+.text .btn2 {
+  padding: 10px 110px;
+  margin-bottom: 20px;
+}
+.text .btn1:hover {
+  background-color: hsl(245, 99%, 67%);
 }
