@@ -5,25 +5,26 @@ body {
 }
 * {
   font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
 }
 .container {
   width: 350px;
   background-color: rgb(255, 255, 255);
   border-radius: 13px;
+  overflow: hidden;
 }
 .text {
   background-color: rgb(255, 255, 255);
   width: 350px;
-  border-radius: 13px;
 }
 .text h1 {
   text-align: center;
 }
 .text p {
-  width: 80%;
   margin: auto;
   text-align: center;
   color: hsl(224, 23%, 55%);
+  font-weight: 500;
 }
 .parent {
   display: flex;
@@ -42,27 +43,23 @@ body {
   align-items: center;
 }
 
-.parent .parent1 {
-  background-color: rgb(255, 255, 255);
+.parent .parent0 .parent1 {
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
-.parent .parent1 span {
+.parent .parent0 .parent1 span {
   padding: 4px;
 }
-.parent .parent1 .span1 {
+.parent .parent0 .parent1 .span1 {
   font-weight: bold;
 }
-.parent .parent1 .span2 {
+.parent .parent0 .parent1 .span2 {
   color: hsl(224, 23%, 55%);
   font-size: 16px;
+  font-weight: 500;
 }
-.parent .parent0 i {
-  color: rgb(130, 128, 128);
-  background-color: hsl(224, 11%, 74%);
-  padding: 8px;
-  border-radius: 20px;
-}
+
 .text button {
   background-color: white;
   display: block;
