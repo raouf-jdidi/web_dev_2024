@@ -1,3 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 320px;
+  margin: auto;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 320px;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin: 20px;
+  color: hsl(218, 44%, 22%);
+}
+
+.card p {
+  width: 88%;
+  margin: auto;
+  margin-bottom: 28px;
+  color: hsl(220, 15%, 55%);
+  line-height: 1.5;
+}
 body {
   background-color: hsl(212, 45%, 89%);
 }
